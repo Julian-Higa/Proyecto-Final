@@ -31,6 +31,19 @@ li {
     font-family: 'The Nautigal', cursive;
 }
 
+/* Animación al Navbar */
+
+
+
+.box {
+    background-color: aquamarine;
+    transition: all 2s;
+}
+
+.box:hover {
+    transform: scale(2);
+}
+
 
 /* Fin estilos header */
 
