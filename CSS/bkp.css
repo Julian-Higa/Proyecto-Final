@@ -10,11 +10,11 @@ header {
     height: 300px;
 }
 
-nav {
-    /* display: flex;
-    justify-content: center; */
+/* nav {
+     display: flex;
+    justify-content: center; 
 
-}
+} */
 
 ul {
     width: 100%;
@@ -31,18 +31,6 @@ li {
     font-family: 'The Nautigal', cursive;
 }
 
-/* Animación al Navbar */
-
-
-
-/* .box {
-    background-color: aquamarine;
-    transition: all 2s;
-}
-
-.box:hover {
-    transform: scale(2);
-} */
 
 
 /* Fin estilos header */
@@ -132,6 +120,18 @@ footer {
     flex-direction: row;
     justify-content: space-around;
 
+}
+
+
+Redes Sociales
+
+.box {
+    background-color: #040303;
+}
+
+.box:hover {
+    transform: scale(2);
+    transition: all 2s;
 }
 
 /* Fin footer */
