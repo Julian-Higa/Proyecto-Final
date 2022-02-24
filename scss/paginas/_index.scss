@@ -1,0 +1,35 @@
+/* Estilos section index */
+
+.section { 
+    margin: 160px;
+
+
+    /* Grid */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+} 
+
+.video-index {
+    margin-left: 300px; 
+
+    /* Grid */
+    display: grid;
+    grid-area: 1 / 1 / 2 / 2; 
+} 
+
+.texto {
+    width: 50%;  
+    margin: 20px 15px;
+    /* Flexbox */
+    display: flex;
+    align-items: center;  
+
+    /* Grid */
+    display: grid;
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+/* Fin estilos section index */

@@ -1,0 +1,24 @@
+/* Footer */
+
+footer {
+    padding-top: 100px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+Redes Sociales
+
+.box {
+    background-color: #040303;
+}
+
+.box:hover {
+    transform: scale(2);
+    transition: all 2s;
+}
+
+/* Fin footer */
