@@ -1,0 +1,27 @@
+/* Estilos header */
+
+header {
+    background-color: azure;
+}
+
+.banner {
+    width: 100vw;
+    height: 300px;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+    color: #362222;
+
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Rubik Beastly', cursive;
+    font-family: 'The Nautigal', cursive;
+}
+
+/* Fin estilos header */
