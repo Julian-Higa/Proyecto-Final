@@ -1,0 +1,21 @@
+/* Pagina Tips */
+
+.tips-container {
+    display: flex;
+    justify-content: center;
+}
+
+.textos-tips {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tips-basicos, .tips-comunidad {
+    background-color: seashell;
+    padding: 200px
+}
+
+/* Fin pagina Tips */

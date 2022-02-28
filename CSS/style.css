@@ -111,6 +111,26 @@ Redes Sociales .box {
 }
 
 /* Fin pagina Clips */
+/* Pagina Tips */
+.tips-container {
+  display: flex;
+  justify-content: center;
+}
+
+.textos-tips {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tips-basicos, .tips-comunidad {
+  background-color: seashell;
+  padding: 200px;
+}
+
+/* Fin pagina Tips */
 /* Pagina Social */
 .section-social {
   display: flex;
@@ -190,7 +210,7 @@ Redes Sociales .box {
   }
 
   .video-index {
-    margin-left: 55px;
+    margin-left: 0px;
   }
 
   .texto {
@@ -198,6 +218,10 @@ Redes Sociales .box {
   }
 
   /* Fin index */
+  /* Pagina Clips */
+  .video-clips {
+    margin: 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
