@@ -42,6 +42,10 @@ strong {
   display: block;
 }
 
+.disclaimer {
+  display: none;
+}
+
 /* Fin body */
 /* Footer */
 footer {
@@ -91,12 +95,20 @@ Redes Sociales .box {
   grid-area: 1/2/2/3;
 }
 
+.disclaimer {
+  display: none;
+}
+
 /* Fin estilos section index */
 /* Pagina Rangos */
 .imagen-rangos {
   padding-top: 125px;
   display: flex;
   justify-content: center;
+}
+
+.disclaimer {
+  display: none;
 }
 
 /* Fin pagina Rangos */
@@ -108,6 +120,10 @@ Redes Sociales .box {
 
 .video-clips {
   margin: 250px 0px;
+}
+
+.disclaimer {
+  display: none;
 }
 
 /* Fin pagina Clips */
@@ -132,17 +148,24 @@ Redes Sociales .box {
   background-color: #B8FFF9;
 }
 
+.disclaimer {
+  display: none;
+}
+
 /* Fin pagina Tips */
 /* Pagina Social */
 .div-social {
-  width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
 .texto-social {
   background-color: seashell;
+}
+
+.disclaimer {
+  display: none;
 }
 
 /* Fin pagina Social */
@@ -206,7 +229,7 @@ Redes Sociales .box {
   }
 
   .video-index {
-    margin-left: 0px;
+    margin: 0px;
   }
 
   .texto {

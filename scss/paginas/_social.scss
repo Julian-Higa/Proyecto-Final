@@ -1,14 +1,16 @@
 /* Pagina Social */
 
  .div-social {
-     width: 100%;
+     
      display: flex;
-     flex-direction: row;
+     flex-direction: column;
      justify-content: center;
     }
 
  .texto-social {
      background-color: seashell;
     }
+
+ .disclaimer { display:none}
 
 /* Fin pagina Social */
