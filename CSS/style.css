@@ -118,27 +118,24 @@ Redes Sociales .box {
 }
 
 .textos-tips {
-  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.tips-basicos, .tips-comunidad {
+.tips-basicos {
   background-color: seashell;
-  padding: 200px;
+}
+
+.tips-comunidad {
+  background-color: #B8FFF9;
 }
 
 /* Fin pagina Tips */
 /* Pagina Social */
-.section-social {
-  display: flex;
-  justify-content: center;
-}
-
 .div-social {
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -146,7 +143,6 @@ Redes Sociales .box {
 
 .texto-social {
   background-color: seashell;
-  padding: 250px;
 }
 
 /* Fin pagina Social */

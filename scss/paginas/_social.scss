@@ -1,20 +1,14 @@
 /* Pagina Social */
 
-.section-social {
-    display: flex;
-    justify-content: center;
-}
+ .div-social {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+    }
 
-.div-social {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.texto-social {
-    background-color: seashell;
-    padding: 250px;
-}
+ .texto-social {
+     background-color: seashell;
+    }
 
 /* Fin pagina Social */

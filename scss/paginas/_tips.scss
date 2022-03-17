@@ -6,16 +6,19 @@
 }
 
 .textos-tips {
-    width: 70%;
+    //width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.tips-basicos, .tips-comunidad {
-    background-color: seashell;
-    padding: 200px
+.tips-basicos {
+    background-color: seashell;    
+}
+
+.tips-comunidad {
+    background-color: #B8FFF9;
 }
 
 /* Fin pagina Tips */
